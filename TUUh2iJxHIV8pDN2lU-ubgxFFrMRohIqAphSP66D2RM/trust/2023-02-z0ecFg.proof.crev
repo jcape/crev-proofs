@@ -1,0 +1,17 @@
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2023-02-06T23:19:50.729765370-08:00
+from:
+  id-type: crev
+  id: TUUh2iJxHIV8pDN2lU-ubgxFFrMRohIqAphSP66D2RM
+  url: https://github.com/jcape/crev-proofs
+ids:
+- id-type: crev
+  id: vMr-9g5KzKQLsCpkp1tc8o7AR6a0OptjOICjf7NMyHE
+  url: https://github.com/mobilecoinfoundation/crev-proofs
+trust: high
+----- SIGN CREV PROOF -----
+7TTmkhCl-a7o7bm-30-9aUM2YRssK-o9QGpjt8CViw33nwkxrNvTjiYhA9nDh4m4JviIELmzENrnfWlHiYe6CA
+----- END CREV PROOF -----
+
