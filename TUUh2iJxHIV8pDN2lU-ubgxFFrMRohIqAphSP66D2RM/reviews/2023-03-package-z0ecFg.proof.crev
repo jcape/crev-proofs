@@ -1,0 +1,32 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-03-03T17:41:57.311624429-08:00
+from:
+  id-type: crev
+  id: TUUh2iJxHIV8pDN2lU-ubgxFFrMRohIqAphSP66D2RM
+  url: https://github.com/jcape/crev-proofs
+package:
+  source: https://crates.io
+  name: tempfile
+  version: 3.4.0
+  revision: e8c3170cab2f29400cdd938faf15a32cb22ab9c2
+  digest: 803xiFz-BE61Lq4WOT2YJQb__hhR0nVGkau-ZT_h7Fk
+package-diff-base:
+  source: https://crates.io
+  name: tempfile
+  version: 3.3.0
+  revision: 1a40687e06eb656044e3d2dffa1379f04b3ef3fd
+  digest: 270etg4EyDI8gYdTsO83Je6XpAmwl3v4mIETJRfrC3o
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  For it's generic purpose, this crate does appear to create files correctly, though I was not able to audit the Windows due to lack of experience.
+  
+  The issues with this crate are common with similar packages, when temporary file cleanup depends on an object destructor.
+----- SIGN CREV PROOF -----
+RVQyJNZCTu4lngs9CjKQskaqcD_7oAtnlC--bYAZBU5NtNoCsJy6v2Gpmlfz_vvdvK14zvOsuI9pmpDhbHTUAg
+----- END CREV PROOF -----
+
